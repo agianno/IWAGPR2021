@@ -14,8 +14,8 @@ else:
     
 
 os.chdir(c_dir)
-    
-#!pip install -q gprMax
+print('Installing pycuda')    
+os.system("pip install -q pycuda")
 print('Installing vtk')
 os.system("pip install -q vtk")
 os.system("pip install -q bitstruct==3.10.0")
